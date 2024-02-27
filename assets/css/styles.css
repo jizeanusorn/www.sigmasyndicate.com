@@ -1,0 +1,357 @@
+:root {
+  --navWdesktop: 84px;
+  --navFontsize: 24px;
+  --navColor: rgba(255,255,255,0.75);
+  --navFootColor: rgba(0, 0, 0, 0.25);
+  --animation-duration: 1500ms;
+}
+
+/* ContactPage */
+
+#bContactBody header {
+  padding-top: 7.2rem;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  background: url(../../assets/img//ContactBG.jpg) center / cover no-repeat;
+  animation-delay: 0.5s;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 992px) {
+  #bContactBody header {
+    padding-top: 5rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("../../assets/img/ContactBG.jpg") center / cover no-repeat;
+    animation-delay: 0.5s;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #bContactBody header p {
+    font-size: calc(var(--navFontsize) + .25rem);
+  }
+}
+
+#bContactBody #address a {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  #bContactBody #address {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+#map iframe {
+  width: 100%;
+  height: 70vh;
+}
+
+/* @media (min-width: 992px) {
+  #map iframe {
+    width: 100%;
+    height: 520px;
+  }
+} */
+
+/* @media (max-height: 647px) {
+  #map iframe {
+    width: 100%;
+    height: 450px;
+  }
+} */
+
+@media (max-width: 768px) and (orientation: landscape) {
+  #bContactBody header {
+    padding-top: 6rem;
+    height: auto;
+    display: flex;
+    align-items: start;
+    background: url("../../assets/img/ContactBG.jpg") center / cover no-repeat;
+    animation-delay: 0.5s;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  #map iframe {
+    margin-bottom: 3rem;
+    height: auto;
+  }
+}
+
+/* --------------------- */
+
+/* ExpertisePage */
+
+#bExpertiseBody header {
+  padding-top: 7.2rem;
+  padding-bottom: 2rem;
+  height: auto;
+  display: flex;
+  align-items: start;
+  background: url("../../assets/img/ExpertiseBG.jpg") center / cover no-repeat;
+  animation-delay: 0.5s;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+@media (min-width: 992px) {
+  #bExpertiseBody header {
+    padding-top: 8rem;
+    height: 100vh;
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    background: url("../../assets/img/ExpertiseBG.jpg") center / cover no-repeat;
+    animation-delay: 0.5s;
+    /*padding-right: 9rem;*/
+    /*padding-left: 9rem;*/
+  }
+}
+
+/* @media (min-width: 992px) {
+  #bExpertiseBody .footer {
+    position: relative;
+    background-color: black;
+  }
+} */
+
+@media (max-width: 768px) and (orientation: landscape) {
+  #bExpertiseBody header {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../../assets/img//ExpertiseBG.jpg) center / cover no-repeat;
+    animation-delay: 0.5s;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 6rem;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  #bExpertiseBody .footer {
+    position: relative;
+    background-color: black;
+  }
+}
+
+/* --------------------- */
+
+/* ProductPage */
+
+#bProductBody header {
+  padding-top: 5.5rem;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  background: url("../../assets/img/ProductBG.jpg") center / cover no-repeat;
+  animation-delay: 0.5s;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+@media (min-width: 992px) {
+  #bProductBody header {
+    padding-top: 3.5rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("../../assets/img/ProductBG.jpg") center / cover no-repeat;
+    animation-delay: 0.5s;
+    padding-right: 10rem;
+    padding-left: 10rem;
+  }
+}
+
+@media (max-height: 647px) {
+  #bProductBody header {
+    padding-top: 3.5rem;
+    padding-right: 15rem;
+    padding-left: 15rem;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  #bProductBody header {
+    padding-top: 3rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../../assets/img//ProductBG.jpg) center / cover no-repeat;
+    animation-delay: 0.5s;
+    padding-right: 10rem;
+    padding-left: 10rem;
+  }
+}
+
+/* --------------------- */
+
+/* AboutPage */
+
+#bAboutBody header {
+  padding-top: 9rem;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  background: url("../../assets/img/AboutBG.jpg") center / cover no-repeat;
+  animation-delay: 0.5s;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 992px) {
+  #bAboutBody header {
+    padding-top: 7.2rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("../../assets/img/AboutBG.jpg") center / cover no-repeat;
+    animation-delay: 0.5s;
+    padding-right: 5.5rem;
+    padding-left: 5.5rem;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  #bAboutBody header {
+    padding-top: 5rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../assets/img/AboutBG.jpg") center / cover no-repeat;
+    animation-delay: 0.5s;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+/* --------------------- */
+
+/* HomePage */
+
+#bIndexBody header {
+  padding-top: 7.2rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url("../../assets/img/HomeBG.jpg") center / cover no-repeat;
+  animation-delay: 0.5s;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media (min-width: 992px) {
+  #bIndexBody header {
+    padding-top: 7.2rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("../../assets/img/HomeBG.jpg") center / cover no-repeat;
+    animation-delay: 0.5s;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  #bIndexBody header {
+    padding-top: 5rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("../../assets/img/HomeBG.jpg") center / cover no-repeat;
+    animation-delay: 0.5s;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+/* --------------------- */
+
+.navbar {
+  background: var(--navColor);
+}
+
+@media (min-width: 992px) {
+  .footer p {
+    font-size: calc(var(--navFontsize) + .25rem);
+  }
+}
+
+.fixed-tops {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.footer {
+  color: white;
+  background: var(--navFootColor);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+body {
+  font-family: "BrowalliaUPC";
+}
+
+.gapNavItem:hover {
+  background: #4d4d4d96;
+  transition: .8s;
+}
+
+.footer p {
+  font-size: calc(var(--navFontsize) - .25rem);
+}
+
+@media (min-width: 992px) {
+  .footer p {
+    font-size: calc(var(--navFontsize) + .25rem);
+  }
+}
+
+.logo {
+  max-height: calc(var(--navWdesktop) - 34px);
+}
+
+@media (min-width: 992px) {
+  .logo {
+    max-height: var(--navWdesktop);
+    padding-left: 2%;
+  }
+}
+
+.vNavitem a {
+  font-size: calc(var(--navFontsize) - .0rem);
+}
+
+@media (min-width: 992px) {
+  .vNavitem .nav-link {
+    padding: calc(calc(var(--navWdesktop) - var(--navFontsize)) / 2) calc(100vw * 0.02) calc(calc(var(--navWdesktop) - var(--navFontsize)) / 2) calc(100vw * 0.02)!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .vNavitem a {
+    font-size: calc(var(--navFontsize) + .7rem);
+  }
+}
+
